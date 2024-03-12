@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!------------------------------->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body onload="updateBacketCount()">
+
+    <!-- Nav Section  -->
+    <nav>
+        <div class="container">
+            <div class="logo"><a href="index.html">World Peas</a></div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li><a href="product.html">Shop</a></li>
+                    <li><a href="">Newstand</a></li>
+                    <li><a href="">Who we are</a></li>
+                    <li><a href="">My Profile</a></li>
+                </ul>
+            </div>
+            <div class="link-basket">
+                <a href="">Basket &nbsp <span id="basket-cart-item-count-btn">(0)</span></a>
+            </div>
+
+
+        </div>
+
+
+    </nav>
+
+    <!-- Header Section  -->
+    <section class="product-main-header">
+        <div class="container">
+            <div class="product-header">
+                <h2>Basket</h2>
+                <h3>3 items</h3>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Basket Items List Section  -->
+
+    <section class="basket-item-list">
+        <div class="container">
+
+            <div class="items">
+
+               
+
+
+                
+
+                
+
+
+
+
+
+
+
+            </div>
+            <div class="order-summary">
+                <h3>Order summary</h3>
+                <div class="total-wrapper margin-from-the-top-37">
+                    <div class="sub-total">Sub total</div>
+                    <div class="value" id="id-sub-total">$00.00</div>
+                </div>
+                <div class="total-wrapper margin-from-the-top-20">
+                    <div class="sub-total">Shipping</div>
+                    <div class="value">00.00</div>
+                </div>
+                <div class="total-wrapper margin-from-the-top-20">
+                    <div class="sub-total">Tax</div>
+                    <div class="value">00.00</div>
+                </div>
+                <div class="total-wrapper margin-from-the-top-20">
+                    <div class="sub-total">
+                        <h3>Total</h3>
+                    </div>
+                    <div class="value">
+                        <h3 id="id-total">$00.00</h3>
+                    </div>
+                </div>
+                <div class="payment-wrapper">
+
+                    <a href="#">Continue to payment</a>
+                    <a href="#">-></a>
+                </div>
+                <div class="payment-wrapper" onClick="clearCart()">
+
+                    <a href="#" >Clear Cart</a>
+                    <a href="#">-></a>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+<script src="basket.js"></script>
+
+</body>
+
+</html>
